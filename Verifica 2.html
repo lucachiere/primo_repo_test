@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+		.uno{
+			border-style:dashed;
+			border-color:black;
+			text-align: center;
+		}
+		.tre{
+			display: inline-block;
+			border: double;
+            padding: 10px;
+            text-align: center;
+            margin: 5px;
+            margin-right: 5;
+            max-width: 100px;
+            margin-bottom: 25px;
+		}
+		.due{
+			border-style: dotted dashed solid double;
+			border-color:red;
+			color:green;
+			display: inline-block;
+		}
+		p.scritta{
+            text-align:justify;
+            color:red;
+        }
+		.quattro{
+            border: solid;
+            margin: 10px 100px 10px 100px;
+            padding: 20px;
+        }
+		p.altro{
+            float: right;
+            border: dashed;
+            border-width: 15px;
+            max-width: 250px;
+            border-color: red;
+            margin: 20px;
+        }
+		.cinque{
+			border: solid;
+            margin: 10px 100px 10px 100px;
+            padding: 10px;
+        }
+		.info{
+            text-align: center;
+            color:green;
+        }
+		.sei{
+			border-style: inset;
+            border-width: 20px;
+		}
+	</style>
+<head>
+	<body>
+		<div class="uno">
+			<h1> Crea una pagina web come la seguente (h1)</h1>
+			<h2> Dove indicato usa il tag tra parentesi tonde(h2)</h2>
+			
+			<div class="due">
+				<p> Se trovi delle parentesi quadre invece sono specificate delle<br>
+					proprietà del box che "devi" modificare per ottenere il<br>
+					risultato [display]</p>
+			</div>		
+			<div class="tre">
+				<p> dove non<br>
+                    viene<br>
+					specificato<br>
+					nulla devi<br>
+					ottenere lo<br>
+					stesso<br>
+					risultato<br>
+					grafico</p>
+			</div>
+			<p>NOTA BENE: IL CODICE DEVE ESSERE <b>INDENTATO</b></p>
+		</div>
+		<p>per il riquadro a pallini rossi sotto <b>non usare</b> margin</p>
+		<p class="scritta">prova a usare float (ma prima giustifica questo testo)  - babablabl ablablab balablablabla bl    ablabal bal bal balablablabalbalbalablabalbalbalbalablabla
+						bab  akabka bkabkaba kbakbakb akbakbak  bakbak abkabka bkab  akbakabkab kabakbabak   bakabakba  bakbakbakbakba
+						kbakabka bakbakbakbaka bkabkabakbakb akbakbjjjddj
+		</p>
+		<div class="quattro">
+			<p class="altro">A volte possono essere indicate sia il tipo di tag che lo stile (p)
+            [ float, border, max-width, border-color]
+			</p>
+
+			<h3> Ricapitolando (h3) </h3>
+			<p> La verifica sarà più o meno strutturata così (p) <br>
+				- I tag <u>obbligatori</u> sono indicati tra parentesi tonde <br>
+				- Gli stili <i>obbligatori</i> indicati tra parentesi quadre <br>
+				- Dove <b>non</b> trovi indicazioni cerca di attenerti il più possibile allo stile che vedi
+			</p>
+		</div>
+		<div class="cinque">
+			<p><code>Qui usa il tag &ltcode&gt;</code></p>
+		</div>
+		<div style="width:300px;border-style:solid; border-color:chartreuse;margin:auto; display:block" >
+			<img style="width:300px";  src="mucca.jpg">
+			<figcaption>"usa  margin:auto"</figcaption>
+		</div>
+		<div class="sei">
+			<h3 class="info">Scala di valutazione (h3) [text-align:center]</h3>
+			<p class="info"> attinenza ai tag 2 pt [text-align:center]</p>
+			<p class="info"> attinenza agli stili indicati 3 pt [text-align:center]</p>
+			<p class="info"> attinenza globale allo stile (anche dove non specificato) 4 pt [text-align:center]</p>
+		</div>
+	</body>
+</html>
